@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <title>demo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("p").hide()
+            $("#hd").click(function(){
+                $("p").hide(500)
+            })
+            $("#shw").click(function(){
+                $("p").show(500);
+            });
+        });
+    
+    </script>
+    <body>
+        <p>Hai</p>
+<button id="shw">SHOW</button>
+<button id="hd">HIDE</button>
+</body>    
+</html>

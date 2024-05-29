@@ -1,0 +1,31 @@
+<!DOCTYPE html>    
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">    
+<head>    
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>    
+<script>    
+$(document).ready(function(){    
+    $("button").click(function(){    
+        $("div.d1").toggle(1500);    
+    });    
+});    
+</script>    
+<style>
+    .d1
+    {
+    border:1px solid black;padding:10px;width:250px
+    }
+</style>
+</head>    
+<body>    
+<button>Toggle</button>    
+<div class="d1">    
+<p><b>This is a little poem: </b><br/>      
+Twinkle, twinkle, little star<br/>      
+How I wonder what you are<br/>      
+Up above the world so high</p>  
+</div>
+</body>    
+</html>    
